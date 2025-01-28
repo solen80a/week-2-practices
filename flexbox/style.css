@@ -1,0 +1,54 @@
+body {
+  background: #CDFFE2;
+  color: #0025FF;
+  font-family: "Figtree", serif;
+}
+
+section {
+  padding: 20px;
+}
+
+hr {
+  border: 1px solid #0025FF;
+}
+
+/* Practice: Navbar */
+
+.navbar {
+  padding: 10px;
+  background: white;
+}
+
+.logo {
+  width: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #0025FF;
+}
+
+/* Practice: Equal-width cards */
+
+.card {
+  background: lightblue;
+  border: 2px solid #0025FF;
+  padding: 20px;
+}
+
+/* Codealong: Plan and code a card */
+.flex-container {
+  display: flex;
+}
+
+.card-image {
+  width: 450px;
+  margin-right: 5px;
+}
+
+article {
+  width: 375px;
+  height: 500px;
+  background: white;
+  color: rgb(0, 24, 164);
+}
