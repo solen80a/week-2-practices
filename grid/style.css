@@ -24,6 +24,7 @@ hr {
   display: grid;
   grid-template-columns: 10% 30% 30% 30%;
   grid-template-rows: 40% 25% 25% 10%;
+  border: 5px solid black;
 }
 
 .grid-item {
@@ -48,21 +49,25 @@ hr {
 .grid-item.one-red {
   background-color: #B33A27;
   grid-row: 1 / 2;
+  grid-column: span 2;
 }
 
 .grid-item.two-white {
   background-color: #F6F5F6;
   grid-row: 1 / 2;
+  grid-column: span 3;
 }
 
 .grid-item.three-white {
   background-color: #F6F5F6;
   grid-row: 2 / 3;
+  grid-column: span 2;
 }
 
 .grid-item.four-white {
   background-color: #F6F5F6;
   grid-row: 2 / 3;
+  grid-column: span 3;
 }
 
 .grid-item.five-yellow {
